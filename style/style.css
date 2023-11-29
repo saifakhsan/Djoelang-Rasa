@@ -1,0 +1,26 @@
+:root {
+    --primary: #F97B22;
+    --secondary: #FEE8B0;
+    --primary-focus: #D75F0A;
+}
+
+.font-inter{
+    font-family: 'Inter', sans-serif !important;
+}
+
+.active {
+    color: var(--primary) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-focus) !important;
+}
